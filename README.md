@@ -3,6 +3,7 @@
 ## TEAM: IT TULEVIK
 
 ### TO-DO
-[] - Avaleht
+- [X] Githubi repo
+- [] Avaleht
 ...
-[] - Personaalsed bio leheküljed
+- [] Personaalsed bio leheküljed
