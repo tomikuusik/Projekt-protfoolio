@@ -4,6 +4,6 @@
 
 ### TO-DO
 - [X] Githubi repo
-- [] Avaleht
+- [ ] Avaleht
 ...
-- [] Personaalsed bio leheküljed
+- [ ] Personaalsed bio leheküljed
