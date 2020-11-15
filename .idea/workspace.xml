@@ -10,9 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5384ab6b-1ee0-4cec-988f-27f073129bcb" name="Default Changelist" comment="new pic">
+    <list default="true" id="5384ab6b-1ee0-4cec-988f-27f073129bcb" name="Default Changelist" comment="Basic website look">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/Taavi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Pictures/Taavi.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
@@ -71,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605362175534</updated>
       <workItem from="1605362176603" duration="696000" />
-      <workItem from="1605362979203" duration="12389000" />
+      <workItem from="1605362979203" duration="18085000" />
     </task>
     <task id="LOCAL-00001" summary="new repo">
       <created>1605362214944</created>
@@ -115,7 +114,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605460617238</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Basic website look">
+      <created>1605465143983</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605465143984</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Basic website look">
+      <created>1605465153919</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605465153919</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,9 +154,14 @@
     <MESSAGE value="Testing responsivness" />
     <MESSAGE value="added design development elements and new profile pics" />
     <MESSAGE value="new pic" />
-    <option name="LAST_COMMIT_MESSAGE" value="new pic" />
+    <MESSAGE value="Basic website look" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic website look" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1061" y="46" key="#Inspections" timestamp="1605472838164">
+      <screen x="-1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="-1061" y="46" key="#Inspections/0.0.1536.864/-1366.0.1366.768@-1366.0.1366.768" timestamp="1605472838164" />
     <state x="489" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605362181412">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
