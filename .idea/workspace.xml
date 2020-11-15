@@ -10,10 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5384ab6b-1ee0-4cec-988f-27f073129bcb" name="Default Changelist" comment="disain">
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+    <list default="true" id="5384ab6b-1ee0-4cec-988f-27f073129bcb" name="Default Changelist" comment="added basic structure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +29,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kHevZOEc3I59V1Vo9YBXRdDtSk" />
@@ -42,6 +47,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -53,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605362175534</updated>
       <workItem from="1605362176603" duration="696000" />
-      <workItem from="1605362979203" duration="1481000" />
+      <workItem from="1605362979203" duration="4656000" />
     </task>
     <task id="LOCAL-00001" summary="new repo">
       <created>1605362214944</created>
@@ -69,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605362997175</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added basic structure">
+      <created>1605364505684</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605364505684</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,7 +108,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new repo" />
     <MESSAGE value="disain" />
-    <option name="LAST_COMMIT_MESSAGE" value="disain" />
+    <MESSAGE value="added basic structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="added basic structure" />
   </component>
   <component name="WindowStateProjectService">
     <state x="489" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605362181412">
