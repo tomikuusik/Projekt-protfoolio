@@ -1,15 +1,53 @@
 .landing {
-    display: inline-block;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
     width: 100vw;
     height: 100vh;
     background-color: blue;
+    background-size: 100%;
+    margin-top: -1em;
+    margin-left: -1em;
+}
+
+.title {
+    color: white;
+    text-align:center;
+}
+
+.landing img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 .portfolios {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    margin-top: -1em;
+    margin-left: -1em;
+}
+
+.profiles {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: minmax(100px, auto);
-    justify-items: end;
-    height: 100vh;
-    background-color: rosybrown;
+    justify-items: center;
+    padding-top: 12em;
+}
+
+.portfolios img{
+    grid-column: 1;
+    grid-row: 1 / -1;
+    align-self: center;
+    width: 22vw;
+    border-radius: 40%;
+}
+
+.tomi {
+    margin-top: 3em;
+}
+
+.renno {
+    margin-top: 5em;
 }
