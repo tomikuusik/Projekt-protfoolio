@@ -8,7 +8,8 @@
 .portfolios {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 100%;
+    grid-auto-rows: minmax(100px, auto);
+    justify-items: end;
     height: 100vh;
     background-color: rosybrown;
 }

@@ -10,8 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5384ab6b-1ee0-4cec-988f-27f073129bcb" name="Default Changelist" comment="Added pics of us">
+    <list default="true" id="5384ab6b-1ee0-4cec-988f-27f073129bcb" name="Default Changelist" comment="Testing responsivness">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG_20201112_133852.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Design development/IMG_20201112_133852.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG_20201112_134017.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Design development/IMG_20201112_134017.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG_20201112_134255 (1).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Design development/IMG_20201112_134255 (1).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE_web.xd" beforeDir="false" afterPath="$PROJECT_DIR$/Design development/SE_web.xd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
@@ -64,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605362175534</updated>
       <workItem from="1605362176603" duration="696000" />
-      <workItem from="1605362979203" duration="6179000" />
+      <workItem from="1605362979203" duration="8246000" />
     </task>
     <task id="LOCAL-00001" summary="new repo">
       <created>1605362214944</created>
@@ -94,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605446036729</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Testing responsivness">
+      <created>1605447688822</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605447688822</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,7 +128,8 @@
     <MESSAGE value="disain" />
     <MESSAGE value="added basic structure" />
     <MESSAGE value="Added pics of us" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added pics of us" />
+    <MESSAGE value="Testing responsivness" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing responsivness" />
   </component>
   <component name="WindowStateProjectService">
     <state x="489" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605362181412">
