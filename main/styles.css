@@ -7,7 +7,7 @@
 }
 
 html {
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
     scroll-behavior: smooth;
 }
@@ -21,6 +21,17 @@ body {
     height: 100vh;
     overflow-y: scroll;
     overflow-x: hidden;
+}
+
+h2 {
+    margin-top: -0.4em;
+    font-weight: lighter;
+}
+
+h3 {
+    color: white;
+    font-family: "Ink Free", serif;
+    font-size: 4rem;
 }
 
 .landing {
@@ -43,10 +54,7 @@ header {
     letter-spacing: 0.3em;
 }
 
-h2 {
-    margin-top: -0.4em;
-    font-weight: lighter;
-}
+
 
 .arrows {
     position: fixed;
@@ -96,29 +104,23 @@ h2 {
 .portfolios {
     width: 100vw;
     height: 100vh;
-    background-color: black;
-    margin-top: -1em;
+    background: black no-repeat center center fixed;
 }
 
 .profiles {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    padding-top: 12em;
+    padding-top: min(12em);
 }
 
-.portfolios img{
-    grid-column: 1;
-    grid-row: 1 / -1;
-    align-self: center;
+.profiles img{
     width: 22vw;
     border-radius: 40%;
 }
 
-.tomi {
-    margin-top: 3em;
-}
-
-.renno {
-    margin-top: 5em;
+@media only screen and (max-width: 800px) {
+    .profiles {
+        grid-template-columns: 1fr;
+    }
 }
