@@ -7,12 +7,13 @@
 }
 
 html {
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
     scroll-behavior: smooth;
 }
 
 body {
+    cursor: url("../Pictures/cursor.png"), pointer;
     margin: 0;
     padding: 0;
     font-family: "Material Sans", serif;
@@ -21,6 +22,21 @@ body {
     height: 100vh;
     overflow-y: scroll;
     overflow-x: hidden;
+}
+
+a {
+    cursor: url("../Pictures/cursor-hover.png"), pointer;
+}
+
+h2 {
+    margin-top: -0.4em;
+    font-weight: lighter;
+}
+
+h3 {
+    color: white;
+    font-family: "Ink Free", serif;
+    font-size: 4rem;
 }
 
 .landing {
@@ -41,11 +57,6 @@ header {
     text-align: center;
     font-size: 3em;
     letter-spacing: 0.3em;
-}
-
-h2 {
-    margin-top: -0.4em;
-    font-weight: lighter;
 }
 
 .arrows {
@@ -96,29 +107,47 @@ h2 {
 .portfolios {
     width: 100vw;
     height: 100vh;
-    background-color: black;
-    margin-top: -1em;
+    background: black no-repeat center center fixed;
 }
 
 .profiles {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    padding-top: 12em;
+    padding-top: min(12em);
 }
 
-.portfolios img{
-    grid-column: 1;
-    grid-row: 1 / -1;
-    align-self: center;
+.profiles img{
     width: 22vw;
     border-radius: 40%;
+    overflow: hidden;
 }
 
-.tomi {
-    margin-top: 3em;
+.profiles img:hover {
+    animation: glitch .2s linear infinite;
 }
 
-.renno {
-    margin-top: 5em;
+@keyframes glitch {
+    from { transform : translateX(0) }
+    17%  { transform : translateX(0%) }
+    20%  { transform : translateX(-1%) }
+    37%  { transform : translateX(1%) }
+    40%  { transform : translateX(-1%) }
+    57%  { transform : translateX(1%) }
+    60%  { transform : translateX(-1%) }
+    77%  { transform : translateX(1%) }
+    80%  { transform : translateX(-1%) }
+    97%
+    {
+        transform : translateX(10%);
+        filter: hue-rotate(360deg);
+    }
+    to   { transform : translateX(0%) }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .profiles {
+        grid-template-columns: 1fr;
+    }
 }
