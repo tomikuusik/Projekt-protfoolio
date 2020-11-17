@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5384ab6b-1ee0-4cec-988f-27f073129bcb" name="Default Changelist" comment="Basic website look">
+    <list default="true" id="5384ab6b-1ee0-4cec-988f-27f073129bcb" name="Default Changelist" comment="deleted excess pics">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
@@ -70,7 +70,9 @@
       <option name="presentableId" value="Default" />
       <updated>1605362175534</updated>
       <workItem from="1605362176603" duration="696000" />
-      <workItem from="1605362979203" duration="18085000" />
+      <workItem from="1605362979203" duration="18519000" />
+      <workItem from="1605475197486" duration="1551000" />
+      <workItem from="1605630258475" duration="1481000" />
     </task>
     <task id="LOCAL-00001" summary="new repo">
       <created>1605362214944</created>
@@ -128,7 +130,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605465153919</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added animations, fixed sizing">
+      <created>1605474807730</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605474807730</updated>
+    </task>
+    <task id="LOCAL-00010" summary="deleted excess pics">
+      <created>1605474988337</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605474988337</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +171,9 @@
     <MESSAGE value="added design development elements and new profile pics" />
     <MESSAGE value="new pic" />
     <MESSAGE value="Basic website look" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic website look" />
+    <MESSAGE value="Added animations, fixed sizing" />
+    <MESSAGE value="deleted excess pics" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted excess pics" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1061" y="46" key="#Inspections" timestamp="1605472838164">
@@ -166,9 +184,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="489" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1605362181412" />
-    <state x="261" y="100" key="Vcs.Push.Dialog.v2" timestamp="1605362865921">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="-1134" y="89" key="Vcs.Push.Dialog.v2" timestamp="1605475245295">
+      <screen x="-1366" y="0" width="1366" height="768" />
     </state>
+    <state x="-1134" y="89" key="Vcs.Push.Dialog.v2/0.0.1536.864/-1366.0.1366.768@-1366.0.1366.768" timestamp="1605475245295" />
     <state x="261" y="100" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1605362865921" />
     <state x="546" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605362220182">
       <screen x="0" y="0" width="1536" height="864" />
