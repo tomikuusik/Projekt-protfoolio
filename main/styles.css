@@ -13,6 +13,7 @@ html {
 }
 
 body {
+    cursor: url("../Pictures/cursor.png"), pointer;
     margin: 0;
     padding: 0;
     font-family: "Material Sans", serif;
@@ -21,6 +22,10 @@ body {
     height: 100vh;
     overflow-y: scroll;
     overflow-x: hidden;
+}
+
+a {
+    cursor: url("../Pictures/cursor-hover.png"), pointer;
 }
 
 h2 {
@@ -53,8 +58,6 @@ header {
     font-size: 3em;
     letter-spacing: 0.3em;
 }
-
-
 
 .arrows {
     position: fixed;
@@ -117,7 +120,31 @@ header {
 .profiles img{
     width: 22vw;
     border-radius: 40%;
+    overflow: hidden;
 }
+
+.profiles img:hover {
+    animation: glitch .2s linear infinite;
+}
+
+@keyframes glitch {
+    from { transform : translateX(0) }
+    17%  { transform : translateX(0%) }
+    20%  { transform : translateX(-1%) }
+    37%  { transform : translateX(1%) }
+    40%  { transform : translateX(-1%) }
+    57%  { transform : translateX(1%) }
+    60%  { transform : translateX(-1%) }
+    77%  { transform : translateX(1%) }
+    80%  { transform : translateX(-1%) }
+    97%
+    {
+        transform : translateX(10%);
+        filter: hue-rotate(360deg);
+    }
+    to   { transform : translateX(0%) }
+}
+
 
 @media only screen and (max-width: 800px) {
     .profiles {
