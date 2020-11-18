@@ -37,10 +37,11 @@ h3 {
     color: black;
     font-family: "Adobe Caslon Pro", serif;
     font-size: 4rem;
+    letter-spacing: 0.3em;
     text-shadow: -1px 1px 0 #41ba45,
-    2px 2px 0 #c63d2b,
-    2px -2px 0 #42afac,
-    -2px -2px 0 #c6c23f;
+    1.5px 1.5px 0 #CC0F39,
+    1.5px -1.5px 0 #00d4ff,
+    -1.5px -1.5px 0 #fff;
 }
 
 #particles-js {
@@ -50,7 +51,7 @@ h3 {
     margin-top: -1em;
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(#1F1C2C, #928DAB);
+    background: black;
 }
 
 header {
@@ -63,7 +64,7 @@ header {
     text-align: center;
     font-size: 3em;
     letter-spacing: 0.2em;
-    text-shadow: 5px 2px #c916cb;
+    text-shadow: 5px 2px #CC0F39;
 }
 
 .arrows {
@@ -76,8 +77,8 @@ header {
     display: block;
     width: 3rem;
     height: 3rem;
-    border-bottom: 0.2em solid white;
-    border-right: 0.2em solid white;
+    border-bottom: 0.3em solid white;
+    border-right: 0.3em solid white;
     transform: rotate(45deg);
     animation: animate 2s infinite;
 }
@@ -121,7 +122,7 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    padding-top: min(12em);
+    padding-top: min(12em, 12em);
 }
 
 .profiles img{
