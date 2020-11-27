@@ -2,8 +2,8 @@
 	--background-gray: rgba(250, 250, 250)
 }
 html {
-	background: rgb(255,255,255);
-	background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(224,224,224,1) 100%); 
+	/*background: rgb(255,255,255);
+	background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(224,224,224,1) 100%); */
 	max-width: 1680px;
 	height: 100%;
 	font-family: Roboto, sans-serif;
@@ -25,7 +25,9 @@ header {
 	grid-area: header;
 	max-width: 100%;
 	margin: 1em 0;
+	margin-bottom: 4em;
 	padding: 0 4%;
+	height: 50%;
 
 	box-shadow: 0px 20px 20px -20px rgba(50, 50, 50, 0.5);
 	border-width: 0.2em;
@@ -41,6 +43,7 @@ header > h1 {
 	text-transform: uppercase;
 	font-size: 2.3em;
 	font-weight: 700;
+	margin: 0.2em;
 }
 
 nav {
@@ -76,13 +79,21 @@ main {
 	margin: 0 1em;
 }
 #title-strip {
-	box-shadow:         7px 7px 20px 0px rgba(50, 50, 50, 0.2);
+	box-shadow:         7px 7px 20px 0px rgba(50, 50, 50, 0.3);
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
 	width: 100%;
 	height: 14vw;
 	max-height: 5em;
+	transition: 1s;
+	opacity: 0.8;
+}
+section:hover > #title-strip {
+	box-shadow:         7px 7px 20px 0px rgba(50, 50, 50, 0.2);
+	transition: 0.2s;
+	transition-timing-function:ease-in-out;
+	opacity: 1;
 }
 #esimene > #title-strip {
 	background: rgb(37,55,244);
@@ -93,8 +104,19 @@ main {
 	background: linear-gradient(90deg, rgba(37,55,244,1) 0%, rgba(89,241,208,1) 100%);  
 }
 .content {
-	padding: 1% 3%;
+	display: inline-flex;
+	padding-top: 1%;
 	flex-wrap: nowrap;
+}
+.content > img {
+	margin-right: 1em;
+	width:300px;
+	height:300px;
+	object-fit:cover;
+}
+.content > p {
+	columns: auto 2;
+	text-align: justify;
 }
 main > section {
 	margin-bottom: 5em;
