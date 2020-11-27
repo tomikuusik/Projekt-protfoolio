@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    cursor: url("../Pictures/cursor.png"), pointer;
+    cursor: url("Pictures/cursor.png"), pointer;
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -25,7 +25,7 @@ body {
 }
 
 a {
-    cursor: url("../Pictures/cursor-hover.png"), pointer;
+    cursor: url("Pictures/cursor-hover.png"), pointer;
 }
 
 h2 {
