@@ -8,6 +8,8 @@
 </head>
 <body>
     <div id="background"></div>
+    <div id="progressbar"></div>
+    <div id="scrollbar"></div>
     <header>
         <div id="logo"><img src="Pictures/Svg/logo.svg"></div>
         <div id="hamburger-icon" onclick="toggleMenu()"></div>
@@ -23,15 +25,22 @@
     </header>
     <main>
         <section id="landing-page">
-            <div id="name">
-                <h1>taavi.<span>raudkivi()</span></h1>
+            <div id="my-name">
+                <h1 class="name sure">taavi</h1>
+                <h1 class="name last">.raudkivi()</h1>
             </div>
             <div id="circle">
                 <div class="circle-text">
-                    <h2> Computer Science Undergraduate</h2>
+                    <h2> Computer Science Undergraduate
+                        Computer Science Undergraduate
+                        Computer Science Undergraduate
+                        Computer Science Undergraduate</h2>
                 </div>
                 <div class="circle-text">
-                    <h2> Computer Science Undergraduate</h2>
+                    <h2> Computer Science Undergraduate
+                        Computer Science Undergraduate
+                        Computer Science Undergraduate
+                        Computer Science Undergraduate</h2>
                 </div>
             </div>
         </section>
@@ -107,16 +116,27 @@
     </main>
 
     <footer></footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r122/three.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-    <script src="Scripts/hover.js"></script>
-    <script src="Scripts/taavi.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r122/three.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script type="text/javascript" src="Scripts/hover.js"></script>
+    <script type="text/javascript" src="Scripts/taavi.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
     <script type="text/javascript" src="Scripts/vanilla-tilt.js"></script>
     <script type="text/javascript">
         VanillaTilt.init(document.querySelector("#computer img"), {
             max: 3,
             speed: 400
         });
+    </script>
+    <script>
+        const text = baffle(".name");
+        text.set({
+            characters : "$.",
+            speed: 200,
+        });
+        text.start();
+        text.reveal(5000)
+        text.stop()
 
     </script>
 </body>
