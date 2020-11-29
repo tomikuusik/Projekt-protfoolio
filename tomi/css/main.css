@@ -2,8 +2,6 @@
 	--background-gray: rgba(250, 250, 250)
 }
 html {
-	/*background: rgb(255,255,255);
-	background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(224,224,224,1) 100%); */
 	max-width: 1680px;
 	height: 100%;
 	font-family: Roboto, sans-serif;
@@ -12,6 +10,7 @@ html {
 body {
 	max-width: 1680px;
 	height: 100%;
+	width: 100%;
 	margin: 0 1%;
 	display: inline-grid;
 	grid-template-rows: 8% auto;
@@ -39,11 +38,13 @@ header {
 	align-items: center;
 	justify-content: space-between;
 }
-header > h1 {
+header > a {
 	text-transform: uppercase;
 	font-size: 2.3em;
 	font-weight: 700;
 	margin: 0.2em;
+	text-decoration: none;
+	color: black;
 }
 
 nav {
@@ -67,7 +68,6 @@ nav > a:active {
 
 main {
 	padding: 1em 1em;
-	/*background-color: var(--background-gray); */
 	margin: 0 10%;
 	margin-bottom: 0.3vw;
 	grid-area: main;
@@ -121,17 +121,3 @@ section:hover > #title-strip {
 main > section {
 	margin-bottom: 5em;
 }
-/* footer {
-	grid-area: footer;
-	margin-top: 0.3%;
-	width: 100%;
-	height: 2em;
-	background-color: var(--background-gray);
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-}
-footer > p {
-	color: rgba(210,210,210);
-	font-size: 0.8em;
-} */
