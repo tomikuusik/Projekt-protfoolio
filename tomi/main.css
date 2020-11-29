@@ -95,7 +95,7 @@ section:hover > #title-strip {
 	transition-timing-function:ease-in-out;
 	opacity: 1;
 }
-#esimene > #title-strip {
+#title-strip {
 	background: rgb(37,55,244);
 	background: linear-gradient(90deg, rgba(37,55,244,1) 0%, rgba(241,89,89,1) 100%); 
 }
