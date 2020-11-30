@@ -1,0 +1,161 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    cursor: url("../Pictures/cursor.png"), pointer;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: "Material Sans", serif;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+a {
+    cursor: url("../Pictures/cursor-hover.png"), pointer;
+}
+
+h2 {
+    margin-top: -0.4em;
+    font-weight: lighter;
+}
+
+h3 {
+    color: black;
+    font-family: "Adobe Caslon Pro", serif;
+    font-size: 4rem;
+    letter-spacing: 0.3em;
+    text-shadow: -1px 1px 0 #41ba45,
+    1.5px 1.5px 0 #CC0F39,
+    1.5px -1.5px 0 #00d4ff,
+    -1.5px -1.5px 0 #fff;
+}
+
+#particles-js {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin-top: -1em;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+}
+
+header {
+    display: grid;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    letter-spacing: 0.2em;
+    text-shadow: 5px 2px #CC0F39;
+}
+
+.arrows {
+    position: fixed;
+    bottom: 9em;
+    right: 50%;
+}
+
+#particles-js span {
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    border-bottom: 0.3em solid white;
+    border-right: 0.3em solid white;
+    transform: rotate(45deg);
+    animation: animate 2s infinite;
+}
+
+#particles-js span:nth-child(1){
+    animation-delay: -0.2s;
+}
+
+#particles-js span:nth-child(2) {
+    animation-delay: -0.4s;
+}
+
+@keyframes animate {
+    0%
+    {
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0;
+    }
+}
+
+#particles-js img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.portfolios {
+    width: 100vw;
+    height: 100vh;
+    background: black no-repeat center center fixed;
+}
+
+.profiles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    padding-top: min(12em, 12em);
+}
+
+.profiles img{
+    width: 22vw;
+    border-radius: 40%;
+    overflow: hidden;
+}
+
+.profiles img:hover {
+    animation: glitch .2s linear infinite;
+}
+
+@keyframes glitch {
+    from { transform : translateX(0) }
+    17%  { transform : translateX(0%) }
+    20%  { transform : translateX(-1%) }
+    37%  { transform : translateX(1%) }
+    40%  { transform : translateX(-1%) }
+    57%  { transform : translateX(1%) }
+    60%  { transform : translateX(-1%) }
+    77%  { transform : translateX(1%) }
+    80%  { transform : translateX(-1%) }
+    97%
+    {
+        transform : translateX(10%);
+        filter: hue-rotate(360deg);
+    }
+    to   { transform : translateX(0%) }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .profiles {
+        grid-template-columns: 1fr;
+    }
+}
