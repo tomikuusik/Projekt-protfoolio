@@ -25,18 +25,16 @@
 	.st19{fill:#E36016;}
 	.st20{fill:#FFF18B;}
 	.st21{fill:#E25F16;}
-	.st22{opacity:0.6;fill:#FDCC91;}
-	.st23{fill:#FF0C0C;}
-	.st24{fill:#A20B0B;}
+	.st22{fill:#2C4349;}
+	.st23{fill:none;stroke:#ED6A40;stroke-width:6;stroke-miterlimit:10;}
+	.st24{fill:#F9B5A8;stroke:#ED6A40;stroke-width:6;stroke-miterlimit:10;}
+	.st25{fill:#758086;stroke:#ED6A40;stroke-width:6;stroke-miterlimit:10;}
+	.st26{fill:none;stroke:#758086;stroke-width:6;stroke-miterlimit:10;}
 </style>
-<g>
-	<polygon class="st22" points="1920,864 996,892 0,864 960,119 	"/>
-	<g id="Group_9" transform="translate(2369 -3135)">
-		<path id="Path_46" class="st23" d="M-1573.1,3258.4l64-57.9l96.3-27.3l91.4,27.3l78,57.9l60.6,154.6h-453L-1573.1,3258.4z"/>
-		<path id="Rectangle_28" class="st24" d="M-1638.4,3392.6h458.8c5.6,0,10.2,4.6,10.2,10.2l0,0c0,5.6-4.6,10.2-10.2,10.2h-458.8
-			c-5.6,0-10.2-4.6-10.2-10.2l0,0C-1648.6,3397.2-1644,3392.6-1638.4,3392.6z"/>
-		<ellipse id="Ellipse_1" class="st23" cx="-1409.2" cy="3185.4" rx="36.6" ry="40.4"/>
-	</g>
-	<rect y="864" class="st22" width="1920" height="216"/>
-</g>
+<rect class="st22" width="1920" height="1080"/>
+<line class="st23" x1="122" y1="164" x2="1699" y2="164"/>
+<line class="st23" x1="100" y1="321" x2="1677" y2="321"/>
+<line class="st23" x1="230" y1="457" x2="1807" y2="457"/>
+<line class="st23" x1="57" y1="663" x2="1634" y2="663"/>
+<line class="st26" x1="321.4" y1="956.3" x2="321" y2="95"/>
 </svg>

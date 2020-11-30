@@ -7,139 +7,123 @@
     <link rel="script" href="Scripts/taavi.js">
 </head>
 <body>
-    <div id="smooth-scroll">
-        <div id="background"></div>
-        <div id="progressbar"></div>
-        <div id="scrollbar"></div>
-        <header>
-            <div id="logo"><img src="Pictures/Svg/logo.svg"></div>
-            <div id="hamburger-icon" onclick="toggleMenu()"></div>
-            <div id="hamburger-menu">
-                <ul>
-                    <li><a href="#" data-text="Home">Home</a></li>
-                    <li><a href="#" data-text="About">About</a></li>
-                    <li><a href="#" data-text="Skills">Skills</a></li>
-                    <li><a href="#" data-text="My story">My story</a></li>
-                    <li><a href="#" data-text="Contact">Contact</a></li>
-                </ul>
+    <div id="background"></div>
+    <div id="progressbar"></div>
+    <div id="scrollbar"></div>
+    <header>
+        <div id="logo"><a href="taavi.html"><img src="Pictures/Svg/logo.svg" alt="logo" ></a></div>
+        <div id="hamburger-icon" onclick="toggleMenu()"></div>
+        <div id="hamburger-menu">
+            <ul>
+                <li class="menu-item"><a href="#landing-page" data-text="Home">Home</a></li>
+                <li class="menu-item"><a href="#about" data-text="About">About</a></li>
+                <li class="menu-item"><a href="#skills" data-text="Skills">Skills</a></li>
+                <li class="menu-item"><a href="#" data-text="My projects">My projects</a></li>
+                <li class="menu-item"><a href="#contact" data-text="Contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section id="landing-page">
+            <div id="my-name">
+                <h1 class="name sure">taavi</h1>
+                <h1 class="name last">.raudkivi()</h1>
             </div>
-        </header>
-        <main>
-            <section id="landing-page">
-                <div id="my-name">
-                    <h1 class="name sure">taavi</h1>
-                    <h1 class="name last">.raudkivi()</h1>
+            <div id="circle">
+                <div class="circle-text">
+                    <h2> Computer Science Undergraduate
+                        Computer Science Undergraduate
+                        Computer Science Undergraduate
+                        Computer Science Undergraduate</h2>
                 </div>
-                <div id="circle">
-                    <div class="circle-text">
-                        <h2> Computer Science Undergraduate
-                            Computer Science Undergraduate
-                            Computer Science Undergraduate
-                            Computer Science Undergraduate</h2>
-                    </div>
-                    <div class="circle-text">
-                        <h2> Computer Science Undergraduate
-                            Computer Science Undergraduate
-                            Computer Science Undergraduate
-                            Computer Science Undergraduate</h2>
-                    </div>
+                <div class="circle-text">
+                    <h2> Computer Science Undergraduate
+                        Computer Science Undergraduate
+                        Computer Science Undergraduate
+                        Computer Science Undergraduate</h2>
                 </div>
-            </section>
-            <div class="vertical-line"></div>
-            <section id="about">
-                <div id="about-text">
-                    <p>
-                        It is a long established fact that a reader
-                        will be distracted by the readable content
-                        of a page when looking at its layout.
-                    </p>
-                    <p>
-                        It is a long established fact that a reader
-                        will be distracted by the readable content
-                        of a page when looking at its layout.
-                    </p>
-                    <p>
-                        It is a long established fact that a reader
-                        will be distracted by the readable content
-                        of a page when looking at its layout.
-                    </p>
+            </div>
+        </section>
+        <div class="vertical-line"></div>
+        <section id="about">
+            <div class="about-text a1">
+                <p>
+                    It is a long established fact that a reader
+                    will be distracted by the readable content
+                    of a page when looking at its layout.
+                </p>
+            </div>
+            <div class="about-text a2">
+                <p>
+                    It is a long established fact that a reader
+                    will be distracted by the readable content
+                    of a page when looking at its layout.
+                </p>
+            </div>
+            <div class="about-text a3">
+                <p>
+                    It is a long established fact that a reader
+                    will be distracted by the readable content
+                    of a page when looking at its layout.
+                </p>
+            </div>
+            <div id="image-wrap">
+                <img src="Pictures/taavi_metsas.jpg" alt="taavi-raudkiv">
+            </div>
+        </section>
+        <section id="skills">
+            <div id="computer">
+                <img src="Pictures/Svg/New-comp%20.svg" alt="computer">
+                <div id="monitor-text">
+                    <p><span class="orange">public class</span> <span class="purple">Computer Science Undergraduate </span>{ </p>
+                    <p><span class="orange-light">public static List&lt;skills&gt;</span> <span class="purple">inCoding</span> { </p>
+                    <dl>
+                        <dt><span class="orange">String</span> Python</dt>
+                        <dd><span class="orange">String</span> Java</dd>
+                        <dt><span class="orange">String</span> CSS</dt>
+                        <dd><span class="orange">String</span> Html</dd>
+                    </dl>
                 </div>
-                <div id="image-wrap">
-                    <div class="my-image"></div>
-                </div>
-            </section>
-            <section id="skills">
-                <div id="computer">
-                    <img src="Pictures/Svg/New-comp%20.svg">
-                    <div id="monitor-text">
-                        <p>public class Computer Science Undergraduate { </p>
-                        <p>public static List&lt;skills&gt; inCoding { </p>
-                        <dl>
-                            <dt>String Python</dt>
-                            <dt>String Java</dt>
-                            <dt>String CSS</dt>
-                            <dt>String Html</dt>
-                        </dl>
-                    </div>
-                </div>
-                <div id="other-skills">
-                    <h1>my_other.<span>Skills()</span></h1>
-                    <div class="cards" style="--m:-1">
-                        <div class="content" style="--n:1">
-                            <h2>Card 01</h2>
-                            <p>It is a long established fact that a reader
-                                will be distracted by the readable content
-                                of a page when looking at its layout.
-                                The point of using Lorem Ipsum is that it has a</p>
-                        </div>
-                    </div>
-                    <div class="cards" style="--m:0">
-                        <div class="content" style="--n:2">
-                            <h2>Card 02</h2>
-                            <p>It is a long established fact that a reader
-                                will be distracted by the readable content
-                                of a page when looking at its layout.
-                                The point of using Lorem Ipsum is that it has a</p>
-                        </div>
-                    </div>
-                    <div class="cards" style="--m:1">
-                        <div class="content" style="--n:3">
-                            <h2>Card 03</h2>
-                            <p>It is a long established fact that a reader
-                                will be distracted by the readable content
-                                of a page when looking at its layout.
-                                The point of using Lorem Ipsum is that it has a</p>
-                        </div>
+            </div>
+            <div id="other-skills">
+                <h1>my_other.<span class="yellow">Skills()</span></h1>
+                <div class="cards" style="--m:-1">
+                    <div class="content" style="--n:1">
+                        <h2>Related to programming</h2>
+                        <p>I have experience and use regurally PostgreSQL and Liquibase.</p>
                     </div>
                 </div>
-            </section>
-            <section id="contact">
-                <div id="get-in-touch">
-                    <h2>Get in touch</h2>
-                    <a href="#">taaviraudkivi2@gmail.com</a>
+                <div class="cards" style="--m:0">
+                    <div class="content" style="--n:2">
+                        <h2>Adobe applications</h2>
+                        <p>I have unlocked all easter eggs using Adobe XD.
+                            Illustrator and Photoshop are my good friends!</p>
+                    </div>
                 </div>
-                <div id="social-media">
-                    <img src="Pictures/Svg/linkedin-svgrepo-com.svg">
-                    <img src="Pictures/Svg/gitlab-svgrepo-com.svg">
-                    <img src="Pictures/Svg/github-svgrepo-com.svg">
+                <div class="cards" style="--m:1">
+                    <div class="content" style="--n:3">
+                        <h2>Wordpress</h2>
+                        <p>I started freelancing creating Wordpress websites.
+                            Get your stopwatch out, because I am like Ferrari
+                            creating a new meaningful website!</p>
+                    </div>
                 </div>
-            </section>
-        </main>
-
-        <footer></footer>
-    </div>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r122/three.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-    <script type="text/javascript" src="Scripts/hover.js"></script>
-    <script type="text/javascript" src="Scripts/taavi.js"></script>
+            </div>
+        </section>
+        <section id="contact">
+            <div id="get-in-touch">
+                <h2>Get in touch</h2>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=taaviraudkivi2@gmail.com">taaviraudkivi2@gmail.com</a>
+            </div>
+            <div id="social-media">
+                <img src="Pictures/Svg/linkedin-svgrepo-com.svg" alt="linkedin-logo">
+                <img src="Pictures/Svg/gitlab-svgrepo-com.svg" alt="gitlab-logo">
+                <img src="Pictures/Svg/github-svgrepo-com.svg" alt="github-logo">
+            </div>
+        </section>
+    </main>
+    <script src="Scripts/taavi.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
-    <script type="text/javascript" src="Scripts/vanilla-tilt.js"></script>
-    <script type="text/javascript">
-        VanillaTilt.init(document.querySelector("#computer img"), {
-            max: 3,
-            speed: 400
-        });
-    </script>
     <script>
         const text = baffle(".name");
         text.set({
@@ -149,7 +133,6 @@
         text.start();
         text.reveal(3000)
         text.stop()
-
     </script>
 </body>
 </html>

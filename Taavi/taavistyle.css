@@ -19,12 +19,6 @@ header {
     overflow-y: hidden;
 }
 
-.smooth-scroll {
-    top: 0;
-    left: 0;
-    overflow: hidden;
-}
-
 ::-webkit-scrollbar {
     width: 0;
 }
@@ -34,7 +28,7 @@ header {
     top: 0;
     right: 0;
     width: 8px;
-    background: rgba(230, 104, 64, 0.5);
+    background: #ED6A40;;
     animation: animate 5s linear infinite;
 }
 
@@ -79,7 +73,7 @@ header {
 /* Navigation */
 #hamburger-menu {
     position: fixed;
-    background: #000000;
+    background: #2C4349;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -91,10 +85,16 @@ header {
     transform: scale(0);
     z-index: 2;
     transition: 0.5s ease-in-out;
+    font-family: "Verdana", serif;
 }
 
 #hamburger-menu.active {
     transform: scale(1);
+    top: 0;
+}
+
+#hamburger-menu.close {
+    transform: scale(0);
     top: 0;
 }
 
@@ -137,14 +137,14 @@ header {
 }
 
 #hamburger-menu ul li a:hover:before {
-    color: #f00;
+    color: #F9B5A8;
     z-index: 2;
     transform: translate(9px, -9px);
     -webkit-text-stroke: 1px #000000;
 }
 
 #hamburger-menu ul li a:hover:after {
-    color: #0ff;
+    color: #ED6A40;
     z-index: 2;
     transform: translate(18px, -18px);
     -webkit-text-stroke: 1px #000000;
@@ -167,6 +167,7 @@ header {
     height: 100vh;
     position: relative;
     display: flex;
+    font-family: "Verdana", serif;
 }
 
 #my-name {
@@ -204,6 +205,7 @@ header {
 .circle-text:nth-child(2){
     background: #ED6A40;
     clip-path: circle(200px at center);
+    z-index: 1;
 }
 
 .circle-text h2 {
@@ -234,58 +236,64 @@ header {
 
 /* About page */
 #about {
+    margin-bottom: 30vh;
     padding-top: 20vh;
     height: 200vh;
+    font-family: "Courier New", monospace;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: ". a a a"
+                         "c c b b"
+                         ". d d d";
 }
 
-#about-text {
+.about-text {
+    padding: 2em;
     color: white;
     font-size: 3em;
-    padding: 2rem;
-    align-self: center;
+    z-index: 2;
+}
+
+.a1 {
+    grid-area: a;
+    text-shadow: 25px 25px 100px #ED6A40;
+}
+
+.a2 {
+    grid-area: c;
+    text-shadow: 25px 25px 100px #ED6A40;
+}
+
+.a3 {
+    grid-area: d;
+    text-shadow: 25px 25px 100px #ED6A40;
 }
 
 #image-wrap {
     grid-area: b;
-    padding-left: 3em;
-    padding-right: 3em;
-    align-self: center;
 }
 
-.my-image {
-    width: 80%;
-    min-height: 60vh;
-
+#image-wrap img {
+    width: 70vh;
+    height: auto;
 }
 
 .vertical-line {
     position: absolute;
-    background-color: #ED6A40;
+    background-color: rgb(217,101,63);
     width: 6px;
     top: 70%;
-    height: 280vh;
+    height: 320vh;
     left: 50%;
     transform: translateX(-50%);
-
-}
-
-#lamp {
-    position: relative;
-    margin-top: 20em;
-    margin-bottom: -1em;
-    width: 100%;
-    height: auto;
-    z-index: 1;
+    z-index: 0;
+    opacity: 0.9;
 }
 
 /* Skills page */
 #skills {
     top: 0;
     width: 100%;
-    height: 550vh;
+    height: 420vh;
     overflow: hidden;
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -297,30 +305,51 @@ header {
 #computer {
     position: relative;
     width: 100%;
-    height: 250vh;
-    margin-top: 50vh;
+    height: 180vh;
+    margin-top: 35vh;
+    display: grid;
+    justify-items: center;
 }
 
 #computer img {
     width: 70vw;
     border-radius: 50px;
     box-shadow: 25px 25px 100px #ffffff;
+    z-index: -1;
+    opacity: 0.9;
 }
 
 #computer img:hover {
     box-shadow: 25px 25px 100px #F9B5A8;
+    z-index: -1;
 }
 
 #monitor-text {
     position: absolute;
+    display: grid;
+    justify-items: center;
     color: #ffffff;
-    font-size: 2.5rem;
+    font-size: 2.2em;
     white-space: nowrap;
     z-index: 1;
-    left: 50%;
     top:  min(34%, 25em);
     bottom: min(70%, 35em);
-    transform: translate(-50%, -50%);
+}
+
+.orange {
+    color: #ED6A40;
+}
+
+.orange-light {
+    color: #F9B5A8;
+}
+
+.purple {
+    color: #BA8ADE;
+}
+
+.yellow {
+    color: #E2CD6D;
 }
 
 #other-skills {
@@ -337,7 +366,12 @@ header {
     margin-top: -12vh;
     padding-right: 13vh;
     color: #ffffff;
-    font-size: 8rem;
+    font-size: 7rem;
+    font-family: "Verdana", serif;
+}
+
+#other-skills h2 {
+    padding-bottom: 1em;
 }
 
 #other-skills .cards {
@@ -354,6 +388,7 @@ header {
     background: #2C4349;
     box-shadow: 25px 25px 100px #ffffff;
     transition: 0.8s;
+    font-family: "Courier New", monospace;
 }
 
 #other-skills .cards .content {
@@ -408,9 +443,13 @@ header {
     font-size: 5em;
 }
 
+#get-in-touch a:hover {
+    color: #ED6A40;
+}
+
 #social-media {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     margin-top: 15vh;
     justify-items: center;
 }
@@ -418,8 +457,9 @@ header {
 #social-media img {
     width: 8em;
     height: 8em;
+    filter: invert(30%) sepia(45%) saturate(2878%);
 }
 
 #social-media img:hover {
-    box-shadow: 25px 25px 100px #F9B5A8;
+    filter: invert(30%) sepia(0%) saturate(6000%) brightness(1000%);
 }
