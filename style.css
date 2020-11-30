@@ -1,0 +1,404 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+
+/*-----------------HEADER-----------------*/
+#header
+{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(pildid/taust.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.user-box
+{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 20px;
+}
+
+.user-box img
+{
+    border-radius: 100%;
+    width: 250px;
+    border: 2px solid white;
+}
+.user-box h1
+{
+    color:white;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.user-box p
+{
+    color:white;
+}
+.scroll-btn
+{
+    bottom: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid white;
+    padding: 10px 10px 20px;
+    border-radius: 30px;
+}
+.scroll-bar span
+{
+    border: 2px solid #fff;
+    font-size: 10px;
+    border-radius: 30px;
+}
+
+.scroll-bar
+{
+    animation: mover 1s infinite alternate;
+}
+
+@keyframes mover
+{
+    0%{transform: translateY(0);}
+    100%{transform: translateY(10px);}
+}
+
+
+
+/*------------------MINUST--------------------*/
+.minust
+{
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+.pealkiri
+{
+    color: rgb(13, 89, 175);
+}
+.profiilipilt
+{
+    height: 300px;
+    
+}
+
+.isiklik-info1
+{
+    margin-top: 20px;
+    color: rgb(13, 89, 175);
+    font-size: 25px;
+    font-weight: bold;
+}
+.isiklik-info2
+{
+    margin-top: -15px;
+    color: rgb(88, 88, 88);
+    font-size: 20px;
+}
+.isiklik-info3
+{
+    margin-top: -15px;
+    color: rgb(88, 88, 88);
+    font-size: 20px;
+}
+
+.nav-bar
+{
+    top: 0;
+    position:sticky ;
+    z-index: 2;
+}
+
+.navbar
+{
+    background-color: #000;
+}
+
+.nav-bar .fa-bars
+{
+    font-size: 35px;
+    color: #fff;
+
+}
+
+
+.navbar-toggler
+{
+    outline: none !important;
+}
+
+.navbar-nav
+{
+    float: right;
+    text-align: right;
+}
+
+.nav-link
+{
+    color: #fff !important;
+}
+
+.skills-bar p
+{
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.progress
+{
+    border-radius: 16px !important;
+    margin-bottom: 10px;
+}
+
+.progress-bar
+{
+    border-radius: 16px;
+    background: rgb(13, 89, 175) !important;
+}
+
+
+
+/*----------------------ELUKÄIK---------------------*/
+
+.elukäik
+{
+    margin-top: -140px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background: #f7f7f7;
+}
+
+.elukäik h3
+{
+    margin-bottom: 50px;
+}
+.joondu
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.elukäigu-pealkiri1
+{
+    color: rgb(13, 89, 175);
+}
+.elukäigu-pealkiri2
+{
+    color: rgb(13, 89, 175);
+}
+.timeline
+{
+    list-style-type: none;
+    position: relative;
+}
+
+.timeline:before
+{
+    content: "";
+    background: #555;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 1;
+
+
+}
+
+.timeline li
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background: rgb(255, 255, 255);
+}
+
+.timeline li h4
+{
+    background-color: #000;
+    padding: 5px 0 5px 8px;
+    color:rgb(233, 233, 233);
+    font-size: 15px;
+}
+
+.timeline li:before
+{
+    content: "";
+    background: rgb(248, 248, 248);
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #000;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+}
+
+/*------------------------ENESEANALÜÜS----------------------*/
+
+.eneseanalüüs
+{
+    padding-top: 35px;
+    padding-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.eneseanalüüs h1
+{
+    margin-top: 15px;
+    color: rgb(13, 89, 175);
+}
+
+.service-box
+{
+    background: #f9f9f9;
+    padding: 10px;
+    margin-top: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.service-box .fa
+{
+    margin: 5px;
+    font-size: 20px;
+}
+
+.service-box span
+{
+    margin: 3px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.service-box p
+{
+    font-size: 15px;
+    margin-top: 20px;
+    color :#777; 
+}
+
+.service-box:hover
+{
+
+    background: #000000;
+    color: #fff;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: 1s;
+}
+
+.service-box:hover p
+{
+    color: white
+}
+
+/*--------------------------KONTAKTID----------------------------*/
+.kontaktid
+{
+    padding-top:50px ;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(pildid/taust.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.kontaktid .row
+{
+    padding: 30px 0;
+    font-size: 22px;
+}
+
+.kontaktid .col-md-4 .fa
+{
+    padding: 10px;
+    font-size: 40px;
+}
+
+.kontaktid .btn
+{
+    padding: 10px 25px 10px 25px;
+    margin: 5px;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    background: transparent; 
+}
+
+.kontaktid .btn:focus
+{
+    box-shadow: none !important;
+}
+
+.kontaktid .btn:hover
+{
+    border: 2px solid #ffffff !important;
+    background: #000 !important;
+    transition: 0.6s;
+}
+
+.kontkatid .btn .fa
+{
+    margin-right: 10px;
+}
+
+.footer
+{
+    background: #000;
+    height: 50px;
+    margin-top: 50px;
+    color: #fff;
+    padding-top: 10px;
+
+}
+
+/*--social icons*/
+
+.social-icons
+{
+    top: 50%;
+    transform: translateY(-50%);
+    position: sticky;
+    z-index: 1;
+    width: 80px;
+}
+
+.social-icons ul
+{
+    padding:initial;
+}
+
+.social-icons ul li
+{
+    height: 44px;
+    width: 40px;
+    list-style-type: none;
+    padding-left: 5px;
+    padding-top: 6px;
+    margin-top: 5px;
+    color: rgb(31, 21, 21);
+    background: #000000;
+
+}
+.fab
+{
+    color: rgb(228, 228, 228);
+}
+
+.social-icons ul li:hover
+{
+    width: 80px;
+    padding-left: 30px;
+    transition: 1s;
+}
