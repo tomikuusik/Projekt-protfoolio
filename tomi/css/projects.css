@@ -18,7 +18,7 @@
 	margin: 1em 0;
 }
 
-#title-strip {
+.title-strip {
 	background: rgb(37,55,244);
 	background: linear-gradient(90deg, #fffcaa 0%, gold 100%);
 }
